@@ -1,0 +1,44 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Eclipse #
+.settings
+.project
+.classpath
+.studio
+target
+
+# Apple # 
+.DS_Store
+
+# Intellij #
+.idea
+*.iml
+*.log
+
+# VSCode
+.vscode
+
+# logback
+logback.out.xml
+
+blog-services/src/main/resources/public/
+blog-services/target
+blog-web/dist/
+blog-web/node/
+blog-web/node_modules/
+blog-web/npm-debug.log
+blog-web/target
+blog-web/test-output
+blog-web/tests/e2e/reports
+blog-web/tests/unit/coverage
+blog-web/yarn-error.log
+blog-web/yarn.lock
+security/target/
+selenium-debug.log
+
+!.mvn/wrapper/maven-wrapper.jar
